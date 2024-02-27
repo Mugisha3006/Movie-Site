@@ -1,0 +1,101 @@
+/*eliminating default element properties(margin and padding)*/
+*{
+  margin:0;
+  padding: 0;
+
+}
+/* styling the titles */
+h1{
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: wavy;
+}
+
+h2{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+/* styling the navbar to appear horizonal and ontop of the page */
+.nav-bar {
+    font-size: 24px;
+    background-color: #51e2f5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar li {
+    margin-right: 20px;
+  }
+  
+  .nav-bar li:last-child {
+    margin-right: 0;
+  }
+  
+  /* providing background colors to the web page */
+  .nav-bar a:hover {
+    text-decoration: none;
+    color:black;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
+
+  header{
+    background-color: #9df9ef;
+  }
+
+  div a:hover{
+    background-color: #e8e5d7;
+    font-size: 24px;
+  }
+
+  section{
+    background-color: #ffa8b6;
+  }
+
+  footer{
+    background-color: #a28089;
+  }
+
+/* sizing the web page to align the background colors with the images on the page */
+  body{
+    margin: 0;
+    padding: 0;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  header, footer{
+    text-align: center;
+    padding: 20px;
+
+  }
+
+  
